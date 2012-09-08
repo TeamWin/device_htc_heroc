@@ -126,3 +126,8 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 
 #TARGET_RECOVERY_UI_LIB := librecovery_ui_heroc librecovery_ui_htc
 TARGET_PREBUILT_KERNEL := device/htc/heroc/prebuilt/kernel
+
+#TWRP:
+DEVICE_RESOLUTION := 320x480
+TW_SDEXT_NO_EXT4 := true
+TW_CUSTOM_POWER_BUTTON := 107
